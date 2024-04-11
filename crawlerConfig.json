@@ -1,6 +1,6 @@
 {
     "index_name": "test", // 填写自己的索引名称
-    "start_urls": ["https://test.guoqizz.xyz"], // 填写自己的网站地址
+    "start_urls": ["https://test.guoqizz.xyz/"], // 填写自己的网站地址
     "rateLimit": 8,
     "maxDepth": 10,
     "selectors": {
