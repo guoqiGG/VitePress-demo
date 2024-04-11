@@ -1,32 +1,37 @@
-import { defineConfig } from 'vitepress'
-import algolia from "./algolia"
+import { defineConfig } from "vitepress";
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "My Awesome Project",
   description: "A VitePress Site",
   markdown: {
-   math:true
+    math: true,
   },
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: "Home", link: "/" },
+      { text: "Examples", link: "/markdown-examples" },
     ],
 
     sidebar: [
       {
-        text: 'Examples',
+        text: "Examples",
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
-        ]
-      }
+          { text: "Markdown Examples", link: "/markdown-examples" },
+          { text: "Runtime API Examples", link: "/api-examples" },
+        ],
+      },
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: "github", link: "https://github.com/vuejs/vitepress" },
     ],
-    algolia
-  }
-})
+    algolia: {
+      appId: "KM9NFXCSIQ",
+      apiKey: "304298ae0579ca1480b39bdc0eb62aa1",
+      indexName: "Test",
+      placeholder: "请输入关键词",
+      buttonText: "搜索",
+    },
+  },
+});
