@@ -1,25 +1,24 @@
 ---
-# https://vitepress.dev/reference/default-theme-home-page
 layout: home
 
 hero:
-  name: "My Awesome Project"
-  text: "A VitePress Site"
-  tagline: My great project tagline
+  name: "我的个人项目"
+  text: "一个 VitePress 网站"
+  tagline: 我伟大的项目口号
   actions:
     - theme: brand
-      text: Markdown Examples
+      text: Markdown 案列
       link: /markdown-examples
     - theme: alt
-      text: API Examples
+      text: API 案列
       link: /api-examples
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: 特征 A
+    details: 客户很重要，客户才会跟着客户
+  - title: 特征 B
+    details: 客户很重要，客户才会跟着客户
+  - title: 特征 C
+    details: 客户很重要，客户才会跟着客户
 ---
 
