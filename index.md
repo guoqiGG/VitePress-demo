@@ -1,8 +1,8 @@
 ---
 layout: home
 
-hero:
-  name: "我的个人项目"
+hero:  
+  name: "我的个人项目" 
   text: "一个 VitePress 网站"
   tagline: 我伟大的项目口号
   actions:
@@ -21,4 +21,3 @@ features:
   - title: 特征 C
     details: 客户很重要，客户才会跟着客户
 ---
-
