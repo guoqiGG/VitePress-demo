@@ -1,5 +1,5 @@
 {
-    "index_name": "test", // 填写自己的索引名称
+    "index_name": "Test", // 填写自己的索引名称
     "start_urls": ["https://test.guoqizz.xyz/"], // 填写自己的网站地址
     "rateLimit": 8,
     "maxDepth": 10,
