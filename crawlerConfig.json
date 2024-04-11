@@ -1,5 +1,5 @@
 {
-  "index_name": "Test",
+  "index_name": "index",
   "start_urls": ["https://test.guoqizz.xyz/"],
   "rateLimit": 8,
   "maxDepth": 10,
