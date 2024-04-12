@@ -42,7 +42,7 @@ export default defineConfig({
       },
     },
     editLink: {
-      pattern: 'https://github.com/guoqiGG/VitePress-demo:path'
+      pattern: 'https://github.com/guoqiGG/VitePress-demo/:path'
     }
   },
 });
