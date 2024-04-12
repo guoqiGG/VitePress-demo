@@ -14,7 +14,7 @@ hero:
       link: /vitepress
     - theme: alt
       text: 学习圈子
-      link: /api-examples
+      link: /algolia
 
 features:
   - icon: 
