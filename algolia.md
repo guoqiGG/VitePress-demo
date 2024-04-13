@@ -1,6 +1,6 @@
 # Algolia Search
 
-VitePress 支持使用 [Algolia DocSearch](https://docsearch.algolia.com/docs/what-is-docsearch/) 搜索文档站点。请参阅他们的入门指南。在你的 `.vitepress/config.ts` 中，你至少需要提供以下内容才能使其正常工作：   
+VitePress 支持使用 [Algolia DocSearch](https://docsearch.algolia.com/docs/what-is-docsearch/) 搜索文档站点。请参阅他们的入门指南。在你的 `.vitepress/config.ts` 中，你至少需要提供以下内容才能使其正常工作：
 
 ``` js
 import { defineConfig } from 'vitepress'
@@ -17,6 +17,17 @@ export default defineConfig({
   }
 })
 ```
+
+## Algolia DocSearch 申请
+
+1. 填写申请信息
+
+![](/apply-dosearch.png)
+
+2. 填完成后，大概等1-2天，会发邮件提示申请通过，邮箱里复带 `algolia docsearch` appId、apiKey、indexName 相关信息，添加到项目中即可正常使用  
+
+![](/apply-dosearch-success.png)  
+
 ## 转中文  
 
 ```js
