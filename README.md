@@ -22,4 +22,4 @@ Front-end learning & Personal Blog
 
 ## 📄 License
 
- © 2024-PRESENT [かく郭琦](https://github.com/guoqiGG/VitePress-demo/）
+ © 2024-PRESENT [かく郭琦](https://github.com/guoqiGG/VitePress-demo/)
