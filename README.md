@@ -1,5 +1,5 @@
 <p align="center">
-<img  alt="chodocs" src="https://chodocs.cn/chodocs-logo.svg"/>
+<img  alt="chodocs" src="./public/logo.jpg"/>
 </p>
 
 <h1 align="center">
