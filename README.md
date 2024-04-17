@@ -20,6 +20,6 @@ Front-end learning & Personal Blog
 2. 使用 Algolia 搜索 
 3. 线上预览地址 https://guoqigg.github.io/VitePress-demo/
 
-## 📄 License
+## 📄 Copyright
 
- © 2024-PRESENT [かく郭琦](https://github.com/guoqiGG/VitePress-demo/)
+ Copyright © 2024-PRESENT [かく郭琦](https://github.com/guoqiGG/VitePress-demo/)
