@@ -10,7 +10,6 @@ export default defineConfig({
       lazyLoading: true,
     },
   },
-  base: '/',
   appearance: "dark",
   themeConfig: {
     lastUpdated: {
