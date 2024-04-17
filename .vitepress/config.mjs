@@ -1,7 +1,7 @@
 import { defineConfig } from "vitepress";
 
 export default defineConfig({
-  base:"/",
+  base:"/VitePress-demo/",
   title: "かく郭琦",
   head: [["link", { rel: "icon", href: "/logo.jpg" }]],
   description: "一个 VitePress 网站",
