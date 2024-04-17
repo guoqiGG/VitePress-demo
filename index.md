@@ -3,7 +3,7 @@ layout: home
 
 hero:  
   name: "かく郭琦" 
-  text: "Front-end learning & Personal Blog "
+  text: "Front-end learning & Personal Blog"
   tagline: 一站式前端内容网站，个人博客
   image:
     src: /home.png
@@ -11,10 +11,13 @@ hero:
   actions:
     - theme: brand
       text: 开始阅读
-      link: /vitepress
+      link: /src/study-circle/vitepress
     - theme: alt
       text: 学习圈子
-      link: /algolia
+      link: /src/study-circle/algolia
+    - theme: alt
+      text: 洞见
+      link: /src/insight/essay/home
 
 features:
   - icon: 
