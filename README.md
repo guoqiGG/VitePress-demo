@@ -12,8 +12,14 @@ Front-end learning & Personal Blog
 
 <p align="center">
 🔥 一站式前端内容网站，个人博客
-</p>  
+</p>    
+
+## 🏠 站点  
 
 1. 基于 VitePress 搭建，快速响应
 2. 使用 Algolia 搜索 
 3. 线上预览地址 https://guoqigg.github.io/VitePress-demo/
+
+## 📄 License
+
+ © 2024-PRESENT [かく郭琦]（https://github.com/guoqiGG/VitePress-demo/）
