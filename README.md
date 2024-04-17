@@ -1,5 +1,5 @@
 <p align="center">
-<image style="border-radius:50px;width:100px;height:100px;"  alt="chodocs" src="./public/logo.jpg"/>
+<image style="border-radius:50%;width:100px;height:100px;"  alt="chodocs" src="./public/logo.jpg"/>
 </p>
 
 <h1 align="center">
