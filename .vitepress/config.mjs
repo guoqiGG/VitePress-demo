@@ -7,7 +7,10 @@ export default defineConfig({
     ["link", { rel: "icon", href: "/VitePress-demo/favicon.ico" }],
     [
       "script",
-      { async: "", src: "https://www.googletagmanager.com/gtag/js?id=G-V28FP6TH6F" },
+      {
+        async: "",
+        src: "https://www.googletagmanager.com/gtag/js?id=G-V28FP6TH6F",
+      },
     ],
     [
       "script",
@@ -15,7 +18,7 @@ export default defineConfig({
       `window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
-    gtag('config', 'TAG_ID');`,
+    gtag('config', 'G-V28FP6TH6F');`,
     ],
   ],
   description: "一个 VitePress 网站",
