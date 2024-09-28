@@ -3,7 +3,7 @@ import { defineConfig } from "vitepress";
 export default defineConfig({
   base:"/VitePress-demo/",
   title: "かく郭琦",
-  head: [["link", { rel: "icon", href: "/logo.jpg" }]],
+  head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
   description: "一个 VitePress 网站",
   markdown: {
     image: {
