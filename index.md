@@ -3,7 +3,7 @@ layout: home
 
 hero:  
   name: "かく郭琦" 
-  text: "Front-end learning & Personal Blog"
+ 
   tagline: 一站式前端内容网站，个人博客
   image:
     src: /home.png
