@@ -21,7 +21,7 @@ export default defineConfig({
       },
     },
     outlineTitle: "页面导航",
-    // logo: "/logo.jpg",
+    logo: "/logo.jpg",
     siteTitle: "かく郭琦",
     nav: [
       { text: "首页", link: "/" },

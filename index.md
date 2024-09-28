@@ -37,11 +37,27 @@ features:
     link: https://vitepress.dev
 ---
 
-
-
+ <VPTeamPageTitle>
+    <!-- <template #title>
+     核心成员和贡献者
+    </template> -->
+    <template #lead>
+    核心成员
+    </template>
+  </VPTeamPageTitle>
+  <VPTeamMembers
+    :members="members"
+    size="small"
+  />
+  
 <script setup>
 
-import { VPTeamMembers } from 'vitepress/theme'
+import {
+  VPTeamPage,
+  VPTeamPageTitle,
+  VPTeamMembers,
+  VPTeamPageSection
+  } from 'vitepress/theme'
 
 const members = [
   {
@@ -66,7 +82,3 @@ const members = [
   },
 ]
 </script>
-
-<div style="text-align:center;"><h3>核心成员</h3></div>
-
-<VPTeamMembers class="member" size="small" :members="members" />
