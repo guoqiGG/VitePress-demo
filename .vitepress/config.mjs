@@ -87,7 +87,7 @@ export default defineConfig({
       provider: "algolia",
       options: {
         appId: "WIXSYLTY7D",
-        apiKey: "8b328c573bbb02f7d79ddc5cafa02c9b",
+        apiKey: "95e65003c8bc888022850ef322495f2f",
         indexName: "test-guoqizz",
         placeholder: "搜索文档",
         translations: {
