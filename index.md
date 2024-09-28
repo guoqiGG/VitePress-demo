@@ -7,7 +7,7 @@ hero:
   tagline: 一站式前端内容网站，个人博客
   image:
     src: /home.png
-    alt: VitePress
+    alt: かく郭琦
   actions:
     - theme: brand
       text: 开始阅读
@@ -25,16 +25,21 @@ features:
     title: Vue
     details: 易学易用，性能出色，适用场景丰富的 Web 前端框架
     link: https://v3.cn.vuejs.org
+    linkText: Vue 3 官网
+
   - icon: 
       src: /vite.svg
     title: Vite
     details: 下一代前端开发与构建工具
     link: https://vitejs.cn
+    linkText: Vite 官网
+
   - icon: 
       src: /vitePress.svg
     title: VitePress
     details: 静态站点生成器 (SSG)，专为构建快速、以内容为中心的站点而设计
     link: https://vitepress.dev
+    linkText: VitePress 官网
 ---
 
  <VPTeamPageTitle>

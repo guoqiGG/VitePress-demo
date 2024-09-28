@@ -3,7 +3,21 @@ import { defineConfig } from "vitepress";
 export default defineConfig({
   base: "/VitePress-demo/",
   title: "かく郭琦",
-  head: [["link", { rel: "icon", href: "/VitePress-demo/favicon.ico" }]],
+  head: [
+    ["link", { rel: "icon", href: "/VitePress-demo/favicon.ico" }],
+    [
+      "script",
+      { async: "", src: "https://www.googletagmanager.com/gtag/js?id=G-V28FP6TH6F" },
+    ],
+    [
+      "script",
+      {},
+      `window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'TAG_ID');`,
+    ],
+  ],
   description: "一个 VitePress 网站",
   markdown: {
     image: {
