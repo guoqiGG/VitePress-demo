@@ -4,11 +4,12 @@ import { library } from "@fortawesome/fontawesome-svg-core";
 import { fas } from "@fortawesome/free-solid-svg-icons";
 library.add(fas); // 导入组件
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome"; // 注册组件
-
+import PageInfo from "../compontents/PageInfo.vue";
 export default {
   extends: DefaultTheme,
   Layout,
   enhanceApp({ app }) {
     app.component("FontAwesomeIcon", FontAwesomeIcon);
+    app.component("PageInfo", PageInfo);
   },
 };
