@@ -1,5 +1,7 @@
 # Algolia Search
 
+<PageInfo></PageInfo>
+
 VitePress 支持使用 [Algolia DocSearch](https://docsearch.algolia.com/docs/what-is-docsearch/) 搜索文档站点。请参阅他们的入门指南。在你的 `.vitepress/config.ts` 中，你至少需要提供以下内容才能使其正常工作：
 
 ``` js
@@ -88,3 +90,8 @@ export default defineConfig({
   }
 })
 ```
+
+<script setup>
+  import PageInfo from '../compontents/PageInfo.vue'
+
+</script>

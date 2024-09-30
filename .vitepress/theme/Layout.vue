@@ -97,11 +97,6 @@ html.dark {
   opacity: 0.5;
 }
 
-.VPTeamPageTitle .lead {
-  font-size: 14px;
-  opacity: 0.4;
-}
-
 .medium-zoom-overlay {
   z-index: 20;
 }
