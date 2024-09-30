@@ -91,11 +91,6 @@ html.dark {
   padding: 3px 0 !important;
 }
 
-.VPTeamPageTitle .title {
-  line-height: 32px;
-  font-size: 24px;
-  opacity: 0.5;
-}
 
 .medium-zoom-overlay {
   z-index: 20;
