@@ -11,7 +11,7 @@ const author = ref(defaultAuthor)
 const { frontmatter, page } = useData()
 if (frontmatter.value?.author)
   author.value = frontmatter.value?.author
-const lastUpdatedDate = computed(() => dayjs(page.value.lastUpdated!).fromNow().replace(' ', ''))
+const lastUpdatedDate = computed(() =>  dayjs(page.value.lastUpdated!).fromNow().replace(' ', ''))
 </script>
 
 <template>
