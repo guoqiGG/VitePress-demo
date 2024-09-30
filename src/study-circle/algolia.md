@@ -93,5 +93,4 @@ export default defineConfig({
 
 <script setup>
   import PageInfo from '../compontents/PageInfo.vue'
-
 </script>
