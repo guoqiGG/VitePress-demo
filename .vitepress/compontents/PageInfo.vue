@@ -15,13 +15,13 @@ const lastUpdatedDate = computed(() =>  dayjs(page.value.lastUpdated!).fromNow()
 </script>
 
 <template>
-  <div class="container">
+  <div class="containers">
     <div class="author"><font-awesome-icon class="fa" icon="user-circle" />作者：{{ author }}</div>
     <div class="update-time"><font-awesome-icon class="fa" icon="refresh" />更新时间：{{ lastUpdatedDate }}</div>
   </div>
 </template>
-<style lang="scss" module>
-.container {
+<style lang="scss" scoped>
+.containers {
   display: flex;
   flex-direction: row;
   margin-top: 20px;
