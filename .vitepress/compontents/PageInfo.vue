@@ -20,7 +20,7 @@ const lastUpdatedDate = computed(() =>  dayjs(page.value.lastUpdated!).fromNow()
     <div class="update-time"><font-awesome-icon class="fa" icon="refresh" />更新时间：{{ lastUpdatedDate }}</div>
   </div>
 </template>
-<style lang="scss">
+<style lang="scss" module>
 .container {
   display: flex;
   flex-direction: row;
